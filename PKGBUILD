@@ -20,13 +20,14 @@ package() {
     cd "$srcdir/"${_pkgname}-"v"${pkgver}*
 
     install -Dm755 $_pkgname "${pkgdir}/usr/bin/${_pkgname}"	
-	
+
     install -Dm644 "completions/bash/${_pkgname}.bash"  "$pkgdir/usr/share/bash-completion/completions/${_pkgname}.bash"
     install -Dm644 "completions/fish/${_pkgname}.fish"  "$pkgdir/usr/share/fish/vendor_completions.d/${_pkgname}.fish"
     install -Dm644 "completions/zsh/_${_pkgname}"	"$pkgdir/usr/share/zsh/site-functions/_${_pkgname}"
-	
+
     install -Dm644 "README.md"				"$pkgdir/usr/share/doc/${_pkgname}/README.md"
-	
+
     install -Dm644 "LICENSE-MIT"			"$pkgdir/usr/share/licenses/${_pkgname}/LICENSE-MIT"
     install -Dm644 "LICENSE-APACHE"		        "$pkgdir/usr/share/licenses/${_pkgname}/LICENSE-APACHE"
 }
+
