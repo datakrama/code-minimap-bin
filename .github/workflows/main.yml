@@ -29,7 +29,6 @@ jobs:
   push:
     name: Push to master branch
     needs: validate
-    if: github.ref == 'ref/head/main'
     runs-on: ubuntu-latest
 
     steps:
