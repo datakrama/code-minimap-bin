@@ -18,4 +18,3 @@ pkgbase = code-minimap-bin
 	sha512sums_aarch64 = 2080bf268f8f15a96d8c255e32c024d4b2dc91bb8c2754bb483f442514e7f68e740acd4c6b6d92066cc352a2440c09345702e85e358aad02a6bc332c149f93a8
 
 pkgname = code-minimap-bin
-

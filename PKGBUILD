@@ -1,4 +1,4 @@
-# Maintainer: A. Husen <hello@husen.id>
+# Maintainer: A. Husen <hi@husen.id>
 pkgname=code-minimap-bin
 _pkgname=code-minimap
 pkgver=0.6.0
@@ -30,4 +30,3 @@ package() {
     install -Dm644 "LICENSE-MIT"			"$pkgdir/usr/share/licenses/${_pkgname}/LICENSE-MIT"
     install -Dm644 "LICENSE-APACHE"		        "$pkgdir/usr/share/licenses/${_pkgname}/LICENSE-APACHE"
 }
-
